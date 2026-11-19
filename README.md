@@ -2,6 +2,10 @@
 
 100% client-side local video, PDF, and image compression in your browser via WebAssembly — **zero file uploads**, working across Windows, macOS, and Chromebooks.
 
+> [!WARNING]
+> **Project Status — Work in Progress (Not Fully Ready)**
+> This project is currently under active development and is **not fully ready for production**. Some parts, features, or workflow steps will fail or behave unexpectedly. We are actively working on fixing all remaining issues.
+
 ## Key Features
 - **Zero-Cloud Privacy**: Files never leave browser memory. Verified `0 B uploaded` live fetch guard + `COOP`/`COEP` (`credentialless`) cross-origin isolation for multi-threaded `SharedArrayBuffer` Wasm.
 - **Destination Presets (No Bitrate Dials)**:
